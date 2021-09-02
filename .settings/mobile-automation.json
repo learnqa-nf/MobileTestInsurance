@@ -1,0 +1,73 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "POCO phisical device",
+      "Description": null,
+      "Url": "http://localhost:4723",
+      "PlatformName": "Android",
+      "PlatformVersion": "10",
+      "DeviceName": "PX3",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "udid": "ed170f0",
+        "automationName": "UiAutomator1"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "sony",
+      "Description": null,
+      "Url": "http://localhost:4723/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "8",
+      "DeviceName": "G8231",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "udid": "BH902CSG77",
+        "automationName": "uiautomator2"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "appInsurance",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "appActivity": "silktest.insurancemobile.LoginActivity",
+            "appPackage": "silktest.insurancemobile"
+          },
+          "StartPage": ""
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}
